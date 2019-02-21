@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Selector</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
+</head>
+<body>
+<nav id="nav" class="side-nav">
+    <!--logo container start-->
+    <div class="logo-container">
+        <div class="side-logo">
+            <img src="logo.png" alt="logo">
+        </div>
+        <div class="side-btn">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+    </div>
+    <!-- logo container end-->
+    <ul class="side-nav-links">
+        <li>Music</li>
+        <li><a href="#"><span><i class="fas fa-music"></i></span>featured</a></li>
+        <li><a href="#"><span><i class="fas fa-microphone"></i></span>radio</a></li>
+        <li><a href="#"><span><i class="fas fa-list"></i></span>song list</a></li>
+        <li><a href="#"><span><i class="fas fa-desktop"></i></span>tv</a></li>
+        <li><a href="#"><span><i class="fas fa-heart"></i></span>liked</a></li>
+        <li><a href="#"><span><i class="fas fa-download"></i></span>download</a></li>
+        <li><a href="#"><span><i class="fas fa-play"></i></span>play history</a></li>
+
+    </ul>
+</nav>
+<!--main start-->
+<main>
+    <nav class="nav-top">
+        <div class="nav-btn">
+
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+
+        </div>
+
+        <div class="chevron-icons">
+            <a href="#"><span><i class="fas fa-chevron-left"></i></span></a>
+            <a href="#"><span><i class="fas fa-chevron-right"></i></span></a>
+        </div>
+        <form>
+            <input type="search" id="search" placeholder="Search here">
+            <a href="#"><span><i class="fas fa-search"></i></span></a>
+        </form>
+        <div class="nav-img">
+            <img src="https://images.pexels.com/photos/413793/pexels-photo-413793.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+            <h3>Jen Deau</h3>
+        </div>
+        <a href="#" class="sign-out"><span><i class="fas fa-sign-out-alt"></i></span>Logout</a>
+    </nav>
+<!--song list start-->
+<section class="song-list">
+    <h1>Song List</h1>
+    <div class="song-list-center">
+
+        <article class="list-item">
+            <div class="list-item-img">
+                <img src="https://images.pexels.com/photos/1616470/pexels-photo-1616470.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="1">
+            </div>
+            <div class="list-item-text">
+                <h3>artist</h3>
+                <h4>song</h4>
+                <div class="list-item-icon">
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="far fa-star"></i></span>
+                </div>
+            </div>
+        </article>
+
+            <article class="list-item">
+                <div class="list-item-img">
+                    <img src="https://images.pexels.com/photos/1010518/pexels-photo-1010518.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="2">
+                </div>
+                <div class="list-item-text">
+                    <h3>artist</h3>
+                    <h4>song</h4>
+                    <div class="list-item-icon">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                    </div>
+                </div>
+            </article>
+
+                <article class="list-item">
+                    <div class="list-item-img">
+                        <img src="https://images.pexels.com/photos/1319799/pexels-photo-1319799.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="3">
+                    </div>
+                    <div class="list-item-text">
+                        <h3>artist</h3>
+                        <h4>song</h4>
+                        <div class="list-item-icon">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="far fa-star"></i></span>
+                            <span><i class="far fa-star"></i></span>
+                        </div>
+                    </div>
+                </article>
+
+                    <article class="list-item">
+                        <div class="list-item-img">
+                            <img src="https://images.pexels.com/photos/270456/pexels-photo-270456.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="4">
+                        </div>
+                        <div class="list-item-text">
+                            <h3>artist</h3>
+                            <h4>song</h4>
+                            <div class="list-item-icon">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="far fa-star"></i></span>
+                                <span><i class="far fa-star"></i></span>
+                            </div>
+                        </div>
+                    </article>
+
+                        <article class="list-item">
+                            <div class="list-item-img">
+                                <img src="https://images.pexels.com/photos/690779/pexels-photo-690779.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="5">
+                            </div>
+                            <div class="list-item-text">
+                                <h3>artist</h3>
+                                <h4>song</h4>
+                                <div class="list-item-icon">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                            </div>
+                        </article>
+
+
+                            <article class="list-item">
+                                <div class="list-item-img">
+                                    <img src="https://images.pexels.com/photos/1365549/pexels-photo-1365549.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="6">
+                                </div>
+                                <div class="list-item-text">
+                                    <h3>artist</h3>
+                                    <h4>song</h4>
+                                    <div class="list-item-icon">
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="far fa-star"></i></span>
+                                    </div>
+                                </div>
+                            </article>
+
+
+                                <article class="list-item">
+                                    <div class="list-item-img">
+                                        <img src="https://images.pexels.com/photos/164809/pexels-photo-164809.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="7">
+                                    </div>
+                                    <div class="list-item-text">
+                                        <h3>artist</h3>
+                                        <h4>song</h4>
+                                        <div class="list-item-icon">
+                                            <span><i class="fas fa-star"></i></span>
+                                            <span><i class="fas fa-star"></i></span>
+                                            <span><i class="fas fa-star"></i></span>
+                                            <span><i class="far fa-star"></i></span>
+                                            <span><i class="far fa-star"></i></span>
+                                        </div>
+                                    </div>
+                                </article>
+
+]                                    <article class="list-item">
+                                        <div class="list-item-img">
+                                            <img src="https://images.pexels.com/photos/756507/pexels-photo-756507.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="8">
+                                        </div>
+                                        <div class="list-item-text">
+                                            <h3>artist</h3>
+                                            <h4>song</h4>
+                                            <div class="list-item-icon">
+                                                <span><i class="fas fa-star"></i></span>
+                                                <span><i class="far fa-star"></i></span>
+                                                <span><i class="far fa-star"></i></span>
+                                                <span><i class="far fa-star"></i></span>
+                                                <span><i class="far fa-star"></i></span>
+                                            </div>
+                                        </div>
+                                    </article>
+
+                                        <article class="list-item">
+                                            <div class="list-item-img">
+                                                <img src="https://images.pexels.com/photos/1425297/pexels-photo-1425297.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="9">
+                                            </div>
+                                            <div class="list-item-text">
+                                                <h3>artist</h3>
+                                                <h4>song</h4>
+                                                <div class="list-item-icon">
+                                                    <span><i class="fas fa-star"></i></span>
+                                                    <span><i class="fas fa-star"></i></span>
+                                                    <span><i class="fas fa-star"></i></span>
+                                                    <span><i class="fas fa-star"></i></span>
+                                                    <span><i class="far fa-star"></i></span>
+                                                </div>
+                                            </div>
+                                        </article>
+
+
+    </div>
+</section>
+<!-- song list end -->
+<!-- songs start -->
+<section class="songs">
+    <h1>top songs</h1>
+    <div class="songs-center owl-carousel owl-theme">
+
+        <!--song 1 start -->
+        <article class="song">
+            <h3>artist</h3>
+            <h4>song</h4>
+            <div class="song-container">
+                <img src="https://images.pexels.com/photos/1616470/pexels-photo-1616470.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="1">
+                <a href="#" class="song-icon">
+                <i class="fas fa-music"></i>
+                </a>
+            </div>
+        </article>
+        <!--song 1 end -->
+
+        <!--song 2 start -->
+        <article class="song">
+            <h3>artist</h3>
+            <h4>song</h4>
+            <div class="song-container">
+                <img src="https://images.pexels.com/photos/270456/pexels-photo-270456.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="4">
+                <a href="#" class="song-icon">
+                    <i class="fas fa-music"></i>
+                </a>
+            </div>
+        </article>
+        <!--song 2 end -->
+
+        <!--song 3 start -->
+        <article class="song">
+            <h3>artist</h3>
+            <h4>song</h4>
+            <div class="song-container">
+                <img src="https://images.pexels.com/photos/164809/pexels-photo-164809.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="7">
+                <a href="#" class="song-icon">
+                    <i class="fas fa-music"></i>
+                </a>
+            </div>
+        </article>
+        <!--song 3 end -->
+
+        <!--song 4 start -->
+        <article class="song">
+            <h3>artist</h3>
+            <h4>song</h4>
+            <div class="song-container">
+                <img src="https://images.pexels.com/photos/1425297/pexels-photo-1425297.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="9">
+                <a href="#" class="song-icon">
+                    <i class="fas fa-music"></i>
+                </a>
+            </div>
+        </article>
+        <!--song 4 end -->
+
+        <!--song 5 start -->
+        <article class="song">
+            <h3>artist</h3>
+            <h4>song</h4>
+            <div class="song-container">
+                <img src="https://images.pexels.com/photos/1626481/pexels-photo-1626481.jpeg?cs=srgb&dl=audio-cassette-cassette-tape-1626481.jpg&fm=jpg" alt="new1">
+                <a href="#" class="song-icon">
+                    <i class="fas fa-music"></i>
+                </a>
+            </div>
+        </article>
+        <!--song 5 end -->
+
+        <!--song 6 start -->
+        <article class="song">
+            <h3>artist</h3>
+            <h4>song</h4>
+            <div class="song-container">
+                <img src="https://images.pexels.com/photos/167092/pexels-photo-167092.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="new2">
+                <a href="#" class="song-icon">
+                    <i class="fas fa-music"></i>
+                </a>
+            </div>
+        </article>
+        <!--song 6 end -->
+
+        <!--song 7 start -->
+        <article class="song">
+            <h3>artist</h3>
+            <h4>song</h4>
+            <div class="song-container">
+                <img src="https://images.pexels.com/photos/245252/pexels-photo-245252.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="new3">
+                <a href="#" class="song-icon">
+                    <i class="fas fa-music"></i>
+                </a>
+            </div>
+        </article>
+        <!--song 7 end -->
+
+        <!--song 8 start -->
+        <article class="song">
+            <h3>artist</h3>
+            <h4>song</h4>
+            <div class="song-container">
+                <img src="https://images.pexels.com/photos/157952/woman-beautiful-violin-sexy-157952.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="new4">
+                <a href="#" class="song-icon">
+                    <i class="fas fa-music"></i>
+                </a>
+            </div>
+        </article>
+        <!--song 8 end -->
+
+
+    </div>
+</section>
+<!-- songs end -->
+</main>
+<!-- main end -->
+<!--jQuery CDN-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!--Js script-->
+<script src="script.js"></script>
+<!--Owl Script CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+</body>
+</html>
