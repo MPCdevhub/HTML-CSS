@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url("https://images.pexels.com/photos/1269025/pexels-photo-1269025.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.form {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%);
+    height: 400px;
+    width: 500px;
+    background-color: rgba(0,0,0,0.5)
+}
+input {
+    margin-top: 30px;
+    width:90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 40px;
+    display: block;
+    border-radius: 8px;
+}
+button {
+    border-radius: 6px;
+    font-size: 20px;
+    border: none;
+    margin-left: 5%;
+    height: 90px;
+    width: 140px;
+    background-color: rgba(41,76,154);
+    color #fff;
+    outline: none;
+    margin-top: 30px;
+}
+button:hover{
+    background-color:rgba(227,125,25);
+    cursor: pointer;
+}
+.text {
+    margin-right: 5%;
+    color: #fff;
+    height: 90px;
+    width:250px;
+    margin-top: 30px;
+    float:right;
+    padding: 10px;
+}
+
+.button {
+    cursor: pointer;
+}
